@@ -216,11 +216,11 @@ document.getElementById("btn-apply").addEventListener('click',function(){
 
         const discountPrice = ValueOfPrice - (ValueOfPrice * (20 / 100))
         
-        const totalAfterDiscountFiled = document.getElementById("discount-total")
+        const totalAfterDiscountFiled = document.getElementById("discount-amount")
         const totalAfterDiscount = ValueOfPrice - discountPrice
         totalAfterDiscountFiled.innerText = totalAfterDiscount.toFixed(2)
 
-        const Pay = document.getElementById("discount-amount")
+        const Pay = document.getElementById("discount-total")
         const PayValueOfString = Pay.innerText
         const PayValue = parseFloat(PayValueOfString)
         Pay.innerText = discountPrice
