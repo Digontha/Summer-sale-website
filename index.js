@@ -15,7 +15,7 @@ document.getElementById("Click-1").addEventListener("click",function(){
     const NameOfItem = document.getElementById("first-name");
     const NameOfItemText = NameOfItem.innerText;
     const P = document.createElement('p');
-    P.classList.add('text-center', 'gap-5',"mt-5")
+    P.classList.add('text-s', 'gap-5',"mt-5")
     const FlowerName = document.getElementById("Flower-name")
     const count = FlowerName.childElementCount;
     P.innerText= `${count+1}  ${NameOfItemText}`
@@ -28,6 +28,12 @@ document.getElementById("Click-1").addEventListener("click",function(){
         btnApply.setAttribute("disabled", "true");
     }
    
+    const btnPurchase = document.getElementById("Purchase-btn");
+    if(calculation > 0){
+        btnPurchase.removeAttribute("disabled")
+    }else{
+        btnPurchase.setAttribute("disabled" , "true")
+    }
 
 })
 
@@ -50,7 +56,7 @@ document.getElementById("Click-2").addEventListener("click",function(){
     const NameOfItem = document.getElementById("second-name");
     const NameOfItemText = NameOfItem.innerText;
     const P = document.createElement('p');
-    P.classList.add('text-center', 'gap-5',"mt-5")
+    P.classList.add('text-start', 'gap-5',"mt-5")
     const FlowerName = document.getElementById("Flower-name")
     const count = FlowerName.childElementCount;
     P.innerText= `${count+1} ${NameOfItemText}`
@@ -61,6 +67,13 @@ document.getElementById("Click-2").addEventListener("click",function(){
         btnApply.removeAttribute("disabled");
     } else {
         btnApply.setAttribute("disabled", "true");
+    }
+
+    const btnPurchase = document.getElementById("Purchase-btn");
+    if(calculation > 0){
+        btnPurchase.removeAttribute("disabled")
+    }else{
+        btnPurchase.setAttribute("disabled" , "true")
     }
 })
 
@@ -81,7 +94,7 @@ document.getElementById("Click-3").addEventListener("click",function(){
     const NameOfItem = document.getElementById("third-name");
     const NameOfItemText = NameOfItem.innerText;
     const P = document.createElement('p');
-    P.classList.add('text-center', 'gap-5',"mt-5")
+    P.classList.add('text-start', 'gap-5',"mt-5")
     const FlowerName = document.getElementById("Flower-name")
     const count = FlowerName.childElementCount;
     P.innerText= `${count+1}  ${NameOfItemText}`
@@ -93,6 +106,13 @@ document.getElementById("Click-3").addEventListener("click",function(){
         btnApply.removeAttribute("disabled");
     } else {
         btnApply.setAttribute("disabled", "true");
+    }
+
+    const btnPurchase = document.getElementById("Purchase-btn");
+    if(calculation > 0){
+        btnPurchase.removeAttribute("disabled")
+    }else{
+        btnPurchase.setAttribute("disabled" , "true")
     }
 })
 
@@ -114,7 +134,7 @@ document.getElementById("Click-4").addEventListener("click",function(){
     const NameOfItem = document.getElementById("fourth-name");
     const NameOfItemText = NameOfItem.innerText;
     const P = document.createElement('p');
-    P.classList.add('text-center', 'gap-5',"mt-5")
+    P.classList.add('text-start', 'gap-5',"mt-5")
     const FlowerName = document.getElementById("Flower-name")
     const count = FlowerName.childElementCount;
     P.innerText= `${count+1}  ${NameOfItemText}`
@@ -127,6 +147,12 @@ document.getElementById("Click-4").addEventListener("click",function(){
         btnApply.setAttribute("disabled", "true");
     }
    
+    const btnPurchase = document.getElementById("Purchase-btn");
+    if(calculation > 0){
+        btnPurchase.removeAttribute("disabled")
+    }else{
+        btnPurchase.setAttribute("disabled" , "true")
+    }
 
 })
 
@@ -149,7 +175,7 @@ document.getElementById("Click-5").addEventListener("click",function(){
     const NameOfItem = document.getElementById("fifth-name");
     const NameOfItemText = NameOfItem.innerText;
     const P = document.createElement('p');
-    P.classList.add('text-center', 'gap-5',"mt-5")
+    P.classList.add('text-start', 'gap-5',"mt-5")
     const FlowerName = document.getElementById("Flower-name")
     const count = FlowerName.childElementCount;
     P.innerText= `${count+1}  ${NameOfItemText}`
@@ -160,6 +186,13 @@ document.getElementById("Click-5").addEventListener("click",function(){
         btnApply.removeAttribute("disabled");
     } else {
         btnApply.setAttribute("disabled", "true");
+    }
+
+    const btnPurchase = document.getElementById("Purchase-btn");
+    if(calculation > 0){
+        btnPurchase.removeAttribute("disabled")
+    }else{
+        btnPurchase.setAttribute("disabled" , "true")
     }
    
 
@@ -183,7 +216,7 @@ document.getElementById("Click-6").addEventListener("click",function(){
     const NameOfItem = document.getElementById("sixth-name");
     const NameOfItemText = NameOfItem.innerText;
     const P = document.createElement('p');
-    P.classList.add('text-center', 'gap-5',"mt-5")
+    P.classList.add('text-start', 'gap-5',"mt-5")
     const FlowerName = document.getElementById("Flower-name")
     const count = FlowerName.childElementCount;
     P.innerText= `${count+1}  ${NameOfItemText}`
@@ -197,6 +230,12 @@ document.getElementById("Click-6").addEventListener("click",function(){
         btnApply.setAttribute("disabled", "true");
     }
    
+    const btnPurchase = document.getElementById("Purchase-btn");
+    if(calculation > 0){
+        btnPurchase.removeAttribute("disabled")
+    }else{
+        btnPurchase.setAttribute("disabled" , "true")
+    }
 
 })
 
